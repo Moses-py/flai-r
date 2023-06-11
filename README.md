@@ -1,7 +1,5 @@
 # Welcome to Flai-R
 
-![Flai-R Logo]("/logo.svg")
-
 ## About
 
 Flai-R is a professional web design and development agency specializing in creating stunning websites and delivering comprehensive digital solutions. With a focus on excellence and innovation, we help businesses establish a strong online presence and achieve their goals. Our dedicated team of experts brings together creativity, technical expertise, and strategic thinking to deliver exceptional results for our clients.
