@@ -1,7 +1,7 @@
 import { Typewriter } from "react-simple-typewriter";
 import { motion } from "framer-motion";
 const JumboHeader = () => {
-  const texts = ["Custom", "Creative", "Intuitive"];
+  const texts = ["Custom", "Creative", "Intuitive", "State-of-the-art"];
   return (
     <>
       <motion.h1
