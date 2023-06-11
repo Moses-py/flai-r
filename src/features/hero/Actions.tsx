@@ -18,7 +18,7 @@ const Actions = () => {
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 1.2 }}
-        className="absolute right-[2rem]  lg:right-[5rem] bottom-0"
+        className="absolute right-[2rem]  lg:right-[5rem] bottom-[5rem]"
       >
         {/* line */}
         <hr className="w-[1px] bg-gray-800 h-[150px] ml-2" />
