@@ -15,6 +15,7 @@ const Footer = () => {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.6 }}
+              viewport={{ once: true }}
               className="container h-full w-full my-8 lg:pl-[9.6rem] flex flex-col gap-[2rem]"
             >
               <h1 className="text-gray-300 text-left text-xl md:text-2xl lg:text-3xl xl:text-[2.5rem] leading-[1.8rem] xs:leading-[2rem] md:leading-[2.5rem] lg:leading-[3rem] xl:leading-[3.75rem] font-serif font-semibold">

@@ -11,6 +11,7 @@ const BlockTitle = ({ text, color }: Props) => {
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: 0.3 }}
+      viewport={{ once: true }}
       className={`${
         color === "light" ? "text-white" : "text-gray-900"
       } font-serif text-lg lg:text-xl leading-[1.8rem] xs:leading-[2rem] sm:leading-[2.5rem] md:leading-[2.8rem] font-semibold`}

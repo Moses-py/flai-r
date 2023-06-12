@@ -9,6 +9,7 @@ import Testimonial from "./features/testimonials/Testimonial";
 import Blog from "./features/blog/Blog";
 import Footer from "./features/footer/Footer";
 import Loader from "./components/loader/Loader";
+import { Progress } from "./components/scrollProgress/Progress";
 
 function App() {
   const { open } = useContext(NavContext);
@@ -31,6 +32,7 @@ function App() {
             <Navoverlay />
           </div>
 
+          <Progress />
           <Hero />
           <About />
           <Service />

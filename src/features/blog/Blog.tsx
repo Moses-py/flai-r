@@ -59,6 +59,7 @@ const Blog = () => {
                   initial={{ opacity: 0, y: 30 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: 0.3 }}
+                  viewport={{ once: true }}
                   className="sm:w-1/2 relative"
                 >
                   <div>
@@ -104,6 +105,7 @@ const Blog = () => {
                   initial={{ opacity: 0, y: 30 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: 0.5 }}
+                  viewport={{ once: true }}
                   className="sm:w-1/2 sm:mt-0 mt-4 relative"
                 >
                   <div>
@@ -150,6 +152,7 @@ const Blog = () => {
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.7 }}
+                viewport={{ once: true }}
                 className="relative"
               >
                 <div>
@@ -206,6 +209,7 @@ const Blog = () => {
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 1.1 }}
+                viewport={{ once: true }}
                 className="relative"
               >
                 <div>
@@ -261,6 +265,7 @@ const Blog = () => {
                   initial={{ opacity: 0, y: 30 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: 1.3 }}
+                  viewport={{ once: true }}
                   className="relative w-full"
                 >
                   <div>
@@ -306,6 +311,7 @@ const Blog = () => {
                   initial={{ opacity: 0, y: 30 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: 1.6 }}
+                  viewport={{ once: true }}
                   className="relative w-full sm:mt-0 mt-4"
                 >
                   <div>
