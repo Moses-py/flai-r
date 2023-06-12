@@ -22,7 +22,7 @@ const Project = ({ image, link, name, category }: Props) => {
             </div>
             <div className="">
               <button className="bg-white text-black px-4 py-2 rounded-md">
-                <a href={link} target="" className="font-serif">
+                <a href={link} target="__blank" className="font-serif">
                   view project
                 </a>
               </button>

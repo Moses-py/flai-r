@@ -17,6 +17,12 @@ const data = [
     category: "Tech Education",
   },
   {
+    name: "Flai-r",
+    link: "https://flai-r.vercel.app/",
+    image: "/flair_shot.webp",
+    category: "Web design agency",
+  },
+  {
     name: "Shoppy",
     link: "https://dashboard-3f516.web.app/",
     image: "/shoppy_shot.webp",
@@ -51,12 +57,6 @@ const data = [
     link: "https://moses-py.github.io/alisimbi/",
     image: "/alisimbi_shot.webp",
     category: "Agriculture",
-  },
-  {
-    name: "Diva",
-    link: "https://moses-py.github.io/diva/",
-    image: "/diva_shot.webp",
-    category: "Model site",
   },
 ];
 
