@@ -5,6 +5,12 @@ import { motion } from "framer-motion";
 
 const data = [
   {
+    name: "Avion",
+    link: "https://avion-ruddy.vercel.app/",
+    image: "/avion_shot.jpg",
+    category: "Ecommerce",
+  },
+  {
     name: "McMakler",
     link: "https://mcmakler.de/",
     image: "/mckmakler_shot.webp",
@@ -51,12 +57,6 @@ const data = [
     link: "https://moses-py.github.io/image-gallery/",
     image: "/gallery_shot.webp",
     category: "Image search platform",
-  },
-  {
-    name: "Alisimbi",
-    link: "https://moses-py.github.io/alisimbi/",
-    image: "/alisimbi_shot.webp",
-    category: "Agriculture",
   },
 ];
 
